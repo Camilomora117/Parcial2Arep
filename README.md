@@ -2,6 +2,21 @@
 
 Author: Yesid Camilo Mora Barbosa
 
+### Clonar
+
+Para clonar el repositorio utilize el siguiente comando (Debe tener instalado git en su local).
+
+```
+https://github.com/Camilomora117/Parcial2Arep.git
+```
+
+### Ejecutar
+
+Para ejecutar el proyecto abralo con su idea preferido y ejecute la clase SparkCollatz
+
+![image](https://user-images.githubusercontent.com/98135134/229214860-acc67cca-6489-46a0-bfa9-32e00c6bc26c.png)
+
+
 ### Implementación
 
 Creamos una aplicación de Spark donde tiene el endPoint /collatz que se encarga de verificar La conjetura de Collatz
@@ -20,6 +35,19 @@ La solucion de la conjetura de collatz es un ciclo wile que verifica hasta que e
 ### Docker Hub
 
 Subimos la imagen local de docker a un repositorio de Docker Hub
+
+Utilize los siguientes comandos:
+
+```
+//Crear vinculació local
+docker tag {nombre-imagen-local} {usernamedockerhub}/{namerepositorio}
+
+//logearse dockerhub
+docker login
+
+//Pushear imagen
+docker push {usernamedockerhub}/{namerepositorio}:latest
+```
 
 Imagen local:
 
