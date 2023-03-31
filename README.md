@@ -79,3 +79,9 @@ Realizamos pruebas
 
 
 ![image](https://user-images.githubusercontent.com/98135134/229211618-d55019b8-5876-4e5f-9129-629c9e9d7279.png)
+
+### Video
+
+Adjunto el link del video que prueba el funcionamiento
+
+https://www.youtube.com/watch?v=n3un8BdcF7Y
